@@ -1,0 +1,43 @@
+.lessons-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+.lessons-container li {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.lessons-container li:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+.lessons-container li:nth-child(even) {
+    background-color: #e0e0e0;
+}
+.lessons-container li:hover {
+    background-color: #d0d0d0;
+}
+.lessons-container li:active {
+    background-color: #c0c0c0;
+}
+.lessons-container li:first-child {
+    font-weight: bold;
+}
+.lessons-container li:last-child {
+    text-decoration: underline;
+}
+
+.text-box h3:first-of-type {
+    color: pink;
+}
+.text-box p#greycol {
+    color: grey;
+}
+.text-box div p {
+    color: red;
+}
+.text-box p:nth-of-type(3) {
+    color: green;
+}
+.text-box p.yellow {
+    color: yellow;
+}
